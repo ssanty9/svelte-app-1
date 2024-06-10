@@ -1,38 +1,44 @@
-# create-svelte
+# svelte-app-1
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Svelte app 1 is an application which contains a basic structure with menu header and notifications section.
 
-## Creating a project
+Sections:
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Svelte app 1](#svelte-app-1)
+  - [Developer Quick Start](#developer-quick-start)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+  <!-- - [Workspace Overview](#workspace-overview)
+    - [`apps` folder](#apps-folder)
+    - [`libs` folder](#libs-folder)
+    - [`dist` folder](#dist-folder)
+    - [`wiki` folder](#wiki-folder)
+    - [config files](#config-files) -->
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Developer Quick Start
 
-## Developing
+Details steps for providing pull-request and about the setup of the repository can be found in the [CONTRIBUTING](wiki/CONTRIBUTING.md) and [REPOSITORY](wiki/REPOSITORY.md) wiki's. The steps below are quick-start steps that will get you to serving an application quickly.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install Dependencies:
 
-```bash
-npm run dev
+1. Latest NodeJS LTS or Current build is needed. [NodeJs Docs](https://nodejs.org)
+2. Install Yarn Package Manager - [Yarn Docs](https://yarnpkg.com) - Optional
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Development Steps:
 
-## Building
+1. Fork the library from github and then follow the steps below by replacing the cloned url with your fork of the repo
+2. wrun the following commands in bash/command prompt
 
-To create a production version of your app:
+   ```bash
+       // clone repo locally
+       git clone https://github.com/ssanty9/svelte-app-1.git
 
-```bash
-npm run build
-```
+       // cd to directory
+       cd {to root directory where code was cloned into}
 
-You can preview the production build with `npm run preview`.
+       // install dependencies using yarn
+       yarn // you can use also a different package manager
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+       // The project is based on svelte kit so you can serve the app you want by passing the name of the app 
+       // default url for this svelte app is https://localhost:5173
+       npm run dev
+   ```
