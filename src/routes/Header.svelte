@@ -39,8 +39,6 @@
                     </Icon>
                 {/if}
             </IconButton>
-
-            <Button><Label>Login</Label></Button>
         </div>
     </NavBarLayout>
 </header>
